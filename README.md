@@ -1,32 +1,54 @@
-# IPL-Data-Analysis
-I have developed a IPL Data Analysis Dashboard (2008–2022) This Power BI dashboard provides a comprehensive visual analysis ##  of IPL (Indian Premier League) data from 2008 to 2022. It captures insights into teams, players, and match outcomes to explore performance trends and match dynamics.
+# IPL Data Analysis Dashboard (2008–2022)
+This Power BI project explores comprehensive IPL statistics from 2008 to 2022 using two detailed datasets. The dashboard offers interactive insights into player performance, team stats, match outcomes, and key tournament trends. It serves as a valuable tool for cricket analysts, fans, and data enthusiasts.
 
-## Objectives
+## Datasets Used
+ipl_ball_by_ball_2008_2022.csv
+Contains every ball bowled in the IPL, with details like runs scored, extras (wides, leg byes, no balls), and wicket types.
 
--Track season-wise team performance and title winners
+ipl_matches_2008_2022.csv
+Includes match-level data such as match ID, teams, venue, toss winner, match result, and winning margin.
 
--Identify top-performing batsmen and bowlers through dynamic selections
+## Dashboard Features
+Title Winner, Orange Cap, Purple Cap overview per season
 
--Analyze match outcomes based on toss decisions and victory types
+ Batting Stats: Total runs, 4s, 6s, strike rate
 
--Examine venue-based winning patterns and player strike/economy rates
+ Bowling Stats: Wickets, economy rate, bowling average, strike rate
 
--Explore trends in boundary counts and match-winning strategies
+ Toss Analysis: Toss impact on match results
 
-## Q&A Insights
-Q: Who scored the most runs in a season?
-A: The "Orange Cap" card dynamically displays this for each season.
+ Match Outcome Trends: Wins by runs, wickets, and super overs
 
-Q: Which bowler took the most wickets overall?
-A: Refer to the "Purple Cap" section.
+ Venue-wise Performance: Top performing teams across stadiums
 
-Q: Which team benefits most from winning the toss?
-A: Use the "Match win by Toss" donut chart.
+ Filterable by Year, Player, Bowler, and Match Type
 
-Q: What is the most common way teams win (runs or wickets)?
-A: Check the "Matches won by %" donut visual.
+## Project Objective
+To build an interactive IPL analytics dashboard that visualizes batting, bowling, and match-winning trends, enabling users to explore and derive insights from historical IPL data using Power BI.
 
-Q: Which venue sees the most wins?
-A: Check the "Match Won By" bar chart by venue.
+Tools & Technologies
+Power BI – For creating interactive visual dashboards
+
+Microsoft Excel / CSV – For raw data formatting
+
+DAX – For calculated fields and measures
+
+GitHub – For version control and project showcase
+
+📸 Dashboard Preview
+<!-- Replace with actual image path if hosted -->
+
+## Key Insights
+Teams winning the toss have a slightly higher chance of winning the match.
+
+Certain venues favor specific teams.
+
+Top performers (e.g., Orange & Purple Cap winners) play a key role in team success.
+
+Year-wise analysis shows evolving trends in batting and bowling styles.
+
+
+
+
 
 
